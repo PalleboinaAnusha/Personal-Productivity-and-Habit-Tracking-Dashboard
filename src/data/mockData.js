@@ -1,0 +1,127 @@
+export const MOCK_HABITS = [
+  {
+    id: 1,
+    name: "Morning Exercise",
+    icon: "💪",
+    streak: 7,
+    completed: true,
+    category: "Health",
+    history: [
+      1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1,
+    ],
+    tags: ["Health"],
+    notes: "",
+  },
+  {
+    id: 2,
+    name: "Drink 8 Glasses Water",
+    icon: "💧",
+    streak: 12,
+    completed: true,
+    category: "Health",
+    history: [
+      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1,
+    ],
+  },
+  {
+    id: 3,
+    name: "Read 30 Minutes",
+    icon: "📚",
+    streak: 5,
+    completed: false,
+    category: "Learning",
+    history: [
+      1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+      0, 1, 1, 1, 0,
+    ],
+  },
+  {
+    id: 4,
+    name: "Meditate",
+    icon: "🧘",
+    streak: 3,
+    completed: true,
+    category: "Mindfulness",
+    history: [
+      1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1,
+      1, 0, 1, 1, 1,
+    ],
+  },
+  {
+    id: 5,
+    name: "Sleep 8 Hours",
+    icon: "😴",
+    streak: 4,
+    completed: false,
+    category: "Health",
+    history: [
+      1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0,
+      1, 1, 1, 1, 0,
+    ],
+    tags: ["Health"],
+    notes: "",
+  },
+];
+
+export const MOCK_TASKS = [
+  {
+    id: 1,
+    title: "Review project proposal",
+    priority: "high",
+    deadline: "2025-11-16",
+    completed: false,
+    tags: ["work"],
+  },
+  {
+    id: 2,
+    title: "Buy groceries",
+    priority: "medium",
+    deadline: "2025-11-16",
+    completed: false,
+    tags: ["personal"],
+  },
+  {
+    id: 3,
+    title: "Call dentist for appointment",
+    priority: "low",
+    deadline: "2025-11-17",
+    completed: false,
+    tags: ["health"],
+  },
+  {
+    id: 4,
+    title: "Prepare presentation slides",
+    priority: "high",
+    deadline: "2025-11-18",
+    completed: false,
+    tags: ["work"],
+  },
+  {
+    id: 5,
+    title: "Update resume",
+    priority: "medium",
+    deadline: "2025-11-20",
+    completed: true,
+    tags: ["career"],
+  },
+  {
+    id: 6,
+    title: "Pay utility bills",
+    priority: "high",
+    deadline: "2025-11-17",
+    completed: false,
+    tags: ["finance"],
+  },
+];
+
+export const WEEKLY_DATA = [
+  { day: "Mon", completed: 4 },
+  { day: "Tue", completed: 5 },
+  { day: "Wed", completed: 3 },
+  { day: "Thu", completed: 5 },
+  { day: "Fri", completed: 4 },
+  { day: "Sat", completed: 3 },
+  { day: "Sun", completed: 4 },
+];

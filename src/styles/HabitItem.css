@@ -1,0 +1,76 @@
+.habit-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.habit-item:hover {
+  background-color: #f3f4f6;
+}
+
+.habit-item-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.habit-item-checkbox {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.habit-item-icon {
+  font-size: 1.875rem;
+  display: inline-block;
+}
+
+.habit-item-info {
+  flex: 1;
+}
+
+.habit-item-name {
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.habit-item-name.completed {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.habit-item-category {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.habit-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.habit-streak {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #fed7aa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+}
+
+.streak-number {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #92400e;
+}

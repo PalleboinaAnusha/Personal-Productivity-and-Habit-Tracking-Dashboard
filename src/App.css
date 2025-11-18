@@ -1,0 +1,26 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+}
+
+.main-content {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.not-found-wrap {
+  padding: 2rem;
+  text-align: center;
+}
+
+.not-found-text {
+  margin-top: 2rem;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+}
